@@ -10,7 +10,7 @@ const record = [
   //...
 ];
 
-superbowlWin = (item) => {
+let superbowlWin = (item) => {
   let record = record.find( item => item.result === "W" )
   return !!record ? record.year : undefined
 }
