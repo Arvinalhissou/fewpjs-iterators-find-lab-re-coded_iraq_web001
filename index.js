@@ -11,6 +11,6 @@ const record = [
 ];
 
 superbowlWin = (record) => {
-  let result = record.find( record => record.result === "W" )
-  return !!result ? result.year : undefined
+  let res = record.find( record => record.result === "W" )
+  return !!res ? res.year : undefined
 }
