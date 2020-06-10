@@ -10,6 +10,7 @@ const record = [
   //...
 ];
 
-const find = record.find(item => item.result === 'W'){
-return item.yea}
-})
+superbowlWin = (record) => {
+  let result = record.find( record => record.result === "W" )
+  return !!result ? result.year : undefined
+}
